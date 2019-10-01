@@ -1,0 +1,9 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/a1e8c7f5-70d4-42d0-b199-7a5c5967b489/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Mybackned",
+    "appService.deploySubpath": "",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
+}
