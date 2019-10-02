@@ -28,7 +28,7 @@ usersRouter.post('/login', function (req, res) {
                 var token = Token.getjwtToken(tokenData)
                 res.json({
                     code: 200,
-                    token: token
+                     token: token
                 });
             }
             else {
