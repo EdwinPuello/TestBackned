@@ -9,7 +9,8 @@ const con = mysql.createConnection(config)
 /* GET users listing. */
 usersRouter.get('/test', (req, res, next)=>{
   res.json({
-    test:true
+    test:true,
+    msh:"papu"
   })
 })
 
